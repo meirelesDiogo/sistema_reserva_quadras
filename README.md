@@ -10,26 +10,26 @@
 
 ## 🎯 Sobre o Projeto
 
-[cite_start]Este é um **Sistema Web completo** desenvolvido de ponta a ponta (contendo interface, camada de aplicação e armazenamento de dados) para gerenciar e automatizar a reserva de quadras esportivas[cite: 5]. 
+Este é um **Sistema Web completo** desenvolvido de ponta a ponta (contendo interface, camada de aplicação e armazenamento de dados) para gerenciar e automatizar a reserva de quadras esportivas. 
 
-[cite_start]A aplicação foi criada como um **Projeto Individual** avaliativo para a Unidade Curricular de **Implantação de Sistemas** do curso de Informática para Internet no **SENAI**[cite: 1, 2, 3]. [cite_start]O projeto cumpre todos os requisitos de arquitetura solicitados, conectando a interface de usuário de forma funcional ao banco de dados relacional[cite: 5].
+A aplicação foi criada como um **Projeto Individual** avaliativo para a Unidade Curricular de **Implantação de Sistemas** do curso de Informática para Internet no **SENAI**. O projeto cumpre todos os requisitos de arquitetura solicitados, conectando a interface de usuário de forma funcional ao banco de dados relacional.
 
 ---
 
 ## 📌 Funcionalidades Principais
 
-* [cite_start]**🔑 Autenticação e Cadastro:** O próprio cliente consegue se cadastrar e realizar login no sistema de forma autônoma para acessar a área restrita[cite: 38].
-* [cite_start]**🏟️ Consulta de Quadras:** Exibição e checagem das quadras disponíveis no local para agendamento[cite: 37].
-* [cite_start]**📅 Agendamento de Reservas:** Permite ao cliente logado realizar reservas de horários para as quadras desejadas de maneira simples[cite: 37, 38].
+* **🔑 Autenticação e Cadastro:** O próprio cliente consegue se cadastrar e realizar login no sistema de forma autônoma para acessar a área restrita.
+* **🏟️ Consulta de Quadras:** Exibição e checagem das quadras disponíveis no local para agendamento.
+* **📅 Agendamento de Reservas:** Permite ao cliente logado realizar reservas de horários para as quadras desejadas de maneira simples.
 
 ---
 
 ## 💼 Regras de Negócio
 
-[cite_start]O sistema foi estruturado e validado seguindo rigorosamente as seguintes diretrizes de negócio explicitadas no documento de requisitos[cite: 6]:
-* [cite_start]**👤 Clientes e Reservas:** Um cliente poderá realizar várias reservas de quadra[cite: 7].
-* [cite_start]**🏟️ Quadras e Reservas:** Uma quadra poderá ser reservada várias vezes[cite: 8].
-* [cite_start]**📅 Exclusividade de Agendamento:** Cada reserva será vinculada a apenas uma quadra por vez[cite: 9].
+O sistema foi estruturado e validado seguindo rigorosamente as seguintes diretrizes de negócio explicitadas no documento de requisitos:
+* **👤 Clientes e Reservas:** Um cliente poderá realizar várias reservas de quadra.
+* **🏟️ Quadras e Reservas:** Uma quadra poderá ser reservada várias vezes.
+* **📅 Exclusividade de Agendamento:** Cada reserva será vinculada a apenas uma quadra por vez.
 
 ---
 
