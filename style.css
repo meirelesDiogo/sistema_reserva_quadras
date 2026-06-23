@@ -1,0 +1,169 @@
+/* style.css - Design Premium Minimalista (Preto Puro & Laranja Cirúrgico) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #000000; /* Preto absoluto */
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Caixa de Login extremamente limpa e elegante */
+.box-login {
+    background-color: #0a0a0a; /* Cinza quase preto */
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #1f1f1f; /* Borda sutil */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+}
+
+.box-login h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.subtitulo {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+
+.campo {
+    margin-bottom: 24px;
+}
+
+.campo label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    color: #888888;
+    margin-bottom: 8px;
+}
+
+/* Inputs elegantes com fundo escuro e borda fina */
+.campo input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #1f1f1f;
+    background-color: #121212;
+    color: #ffffff;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+/* Foco do input ativo: acende uma borda laranja cirúrgica */
+.campo input:focus {
+    outline: none;
+    border-color: #ff6600;
+    box-shadow: 0 0 0 1px #ff6600;
+}
+
+/* Botão Laranja Sólido e Elegante */
+.btn-entrar {
+    width: 100%;
+    background-color: #ff6600;
+    color: #000000;
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+    margin-top: 8px;
+}
+
+.btn-entrar:hover {
+    background-color: #ff8533;
+}
+
+/* Link discreto */
+.link-cadastro {
+    display: block;
+    text-align: center;
+    margin-top: 24px;
+    color: #888888;
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.15s ease;
+}
+
+.link-cadastro:hover {
+    color: #ff6600;
+}
+
+/* Estilo para mensagens de erro */
+.msg-erro {
+    background-color: rgba(255, 51, 51, 0.1);
+    border: 1px solid rgba(255, 51, 51, 0.2);
+    color: #ff3333;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* ==========================================================================
+   ESTILO DO PAINEL DE RESERVAS (reservas.php) - LIMPO E ALINHADO
+   ========================================================================== */
+.painel-reservas {
+    width: 100%;
+    max-width: 900px;
+    background-color: #0a0a0a;
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #1f1f1f;
+}
+
+.painel-reservas h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    border-bottom: 1px solid #1f1f1f;
+    color: #ff6600;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+td {
+    border-bottom: 1px solid #111111;
+    color: #cccccc;
+}
+
+tr:hover td {
+    color: #ffffff;
+    background-color: #121212;
+}
